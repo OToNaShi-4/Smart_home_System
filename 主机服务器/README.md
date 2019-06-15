@@ -1,0 +1,15 @@
+# Tornado_Web_Server
+
+本仓库是tornado框架的项目结构文件，可节约tornado开发过程中不必要的时间。
+本项目使用mako模板语言替代tornado自己的模板语言，并使用aioredis和aiomysql作为数据库链接异步模块
+项目以实现session功能，session基于redis
+mysql和redis的设置在settings.py文件中
+
+本项目依赖库:
+
+tornado
+aioredis
+aiomysql
+mako
+
+请使用前提前安装好
